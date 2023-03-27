@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <title>Gallery</title>
+    <link rel="stylesheet" href="../CSS/gallery.css">
+    <script src="../JS/gallery.js"></script>
+<body onload="header()">
+
+  <div id="header">
+    <ul id="navbar"> 
+      <li class="sbi"><a href="../HTML/Home.html" style="color:darkblue;" id="home">Home</a</li>
+      <li class="sbi"><a href="../HTML/info.html" id="info">Info</a></li>
+  <li class="sbi" id="logout">
+       <a href="../index.html">Logout</a></li>
+     </ul>
+    <h1 id="pageHeading"> Gallery</h1>
+<button id="left"  onclick="left()"> < </button>
+<button id="right" onclick="right()">></button>
+
+  </div> 
+  <div id="bodyofGallary">
+    <div id="gallary">
+      <img class="images" onclick="openTheImage(0)" src="../assests/1to13/images/0.jpeg">
+      <img class="images" onclick="openTheImage(1)" src="../assests/1to13/images/1.jpeg">
+      <img class="images" onclick="openTheImage(2)" src="../assests/1to13/images/2.jpeg">
+      <img class="images" onclick="openTheImage(3)" src="../assests/1to13/images/3.jpeg">
+      <img class="images" onclick="openTheImage(4)" src="../assests/1to13/images/4.jpeg">
+      <img class="images" onclick="openTheImage(5)" src="../assests/1to13/images/5.jpeg">
+      <img class="images" onclick="openTheImage(6)" src="../assests/1to13/images/6.jpeg">
+      <img class="images" onclick="openTheImage(7)" src="../assests/1to13/images/7.jpeg">
+      <img class="images" onclick="openTheImage(8)" src="../assests/1to13/images/8.jpeg">
+      <img class="images" onclick="openTheImage(9)" src="../assests/1to13/images/9.jpeg">
+      <img class="images" onclick="openTheImage(10)" src="../assests/1to13/images/10.jpeg">
+      <img class="images" onclick="openTheImage(11)" src="../assests/1to13/images/11.jpeg">
+      <img class="images" onclick="openTheImage(12)" src="../assests/1to13/images/12.jpeg">
+      <img class="images" onclick="openTheImage(13)" src="../assests/1to13/images/13.jpeg">
+    </div>
+  </div> 
+  <div id="bigImage" style="display: none;">
+    <h1 id="close" onclick="closeTheImage()">X</h1>
+    <img id="bigimg">
+
+  </div>
+</body>
+</html>
